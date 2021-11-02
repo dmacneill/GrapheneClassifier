@@ -11,4 +11,5 @@ Depending on the material this search (colloquially termed "flake-hunting") can 
 
 ### References
 <a id="1">[1]</a> K.S. Novoselov *et al.,* "Electric field effect in atomically thin carbon films", **306**, 666-669 (2004)
+
 <a id="2">[2]</a> B. Han *et al.,* "Deep-Learning-Enabled Fast Optical Identification and Characterization of 2D Materials", **32**, 2000953 (2020)
