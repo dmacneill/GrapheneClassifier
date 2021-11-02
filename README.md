@@ -9,7 +9,11 @@ Since 2004 [[1]](#1) layered crystals (called two-dimensional or van der Waals m
 
 Depending on the material this search (colloquially termed "flake-hunting") can be quite time-consuimg, even taking several hours. Many research groups have tried to automate the process, but so far no solution has been convenient or reliable enough for widespread adoption. The group I work in at MIT has also put efforts into automated flake-hunting [[2]](#2), and this project is a continuation of that. 
 
-### References
-<a id="1">[1]</a> K.S. Novoselov *et al.,* "Electric field effect in atomically thin carbon films", **306**, 666-669 (2004)
+Previous work showed convolutional neural nets (CNN) can be trained to identify thin crystals very well, but those models were trained on high-magnification images which limits throughput (since the microscope takes a long time to image an entire wafer at high-magnification due to the low field-of-view). Here, I discuss some experiments on flake-identification using the lowest available magnification. Another barrier preventing automated flake hunting is that different research projects have different materials requirements. Researchers might want to quickly characterize a material that has never been exfoliated before, or to find crystals with a specific shape. To this end I tried using self-supervised pretraining with contrastive learning [[3]](#3), and will compare the results with models trained from scratch. 
 
-<a id="2">[2]</a> B. Han *et al.,* "Deep-Learning-Enabled Fast Optical Identification and Characterization of 2D Materials", **32**, 2000953 (2020)
+### References
+<a id="1">[1]</a> K.S. Novoselov *et al.,* "Electric field effect in atomically thin carbon films", *Science* **306**, 666-669 (2004)
+
+<a id="2">[2]</a> B. Han *et al.,* "Deep-Learning-Enabled Fast Optical Identification and Characterization of 2D Materials", *Advanced Materials* **32**, 2000953 (2020)
+
+<a id="3">[3]</a> T. Chen *et al.,* "Big Self-Supervised Models are Strong Semi-Supervised Learners", *arXiv preprint arXiv:2006.10029* (2020)
