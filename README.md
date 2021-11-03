@@ -21,7 +21,7 @@ The main module is `train.py` which uses gradient descent to train the model def
 
 As described in [Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/pdf/2006.10029.pdf), for contrastive learning we train the model with a projection head that outputs a high-dimensional embedding. To fine-tune on the actual data we replace this projection head with a linear map that outputs a `num_classes` dimensional vector. This is handled automatically by the `Classifier` class, which can be initialized in either configuration. During training `clr.py` saves weights for the entire model and also weights for the backbone only. To use `train.py` with a pre-trained backbone use the command line argument `--backbone_weights_path`. 
 
-Finally, the model defined in `model.py` is a small CNN with 4 convolutional layers that can be trained from scratch but is not really appropriate for contrastive learning. `resnet.py` defines a classifier based on ResNet-50; to use it rename this file to `model.py`.
+Finally, the model defined in `model.py` is a small CNN with four convolutional layers that is not really appropriate for contrastive learning. `resnet.py` defines a classifier based on ResNet-50; to use it rename this file to `model.py`.
 
 ### Results
 
