@@ -17,7 +17,7 @@ Python 3.8.10, Pillow 7.2.0, NumPy 1.19.1, Matplotlib 3.3.4, PyTorch 1.8.1
 
 ### Usage
 
-The main module is `train.py` which uses gradient descent to train the model defined in the class `Classifier` in `model.py`. It is designed to be run from the command line. To see the arguments, call `python train.py -h`. Arguments can be passed from file by prefacing the filename with `@`. 
+The main module is `train.py` which uses gradient descent to train the model defined in the class `Classifier` in `model.py`. It is designed to be run from the command line. To see the arguments, call `python train.py -h`. Arguments can be passed from file by prefacing the filename with `@`. The module `clr.py` can be run from the command line to carry out contrastive learning, again using the `Classifier` class defined in `model.py`. 
 
 
 
