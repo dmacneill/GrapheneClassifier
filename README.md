@@ -38,7 +38,7 @@ For contrastive learning I created a dataset of 117027 200 x 200 images. The ima
 Below I will compare two methods/architectures for training a graphene classifier: a small CNN trained from scratch on the classifier dataset only (CNN-4) and a larger ResNet-50 model trained using self-supervised learning on the contrastive learning dataset and then fine-tuned on the classifier dataset.
 
 <p align = "center">
-<img src="figures/fig2.svg" width=600>
+<img src="figures/fig2.svg" width=500>
 </p>
 
 ### References
