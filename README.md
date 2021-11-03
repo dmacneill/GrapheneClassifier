@@ -49,6 +49,8 @@ CNN-4 was trained for 200 epochs using the AdamW optimizer with `lr=3r-4` and `w
 
 *Left: Table of F-scores for the four classes, for different model types. LE refers to contrastive pre-training plus training of the linear output layer with the backbone frozen, while FT refers to contrastive pre-training with fine-tuning as descrived above. Right: Harmonic average of F-scores over class versus dataset size for selected model types*
 
+All models are able to obtain F-scores well above random (the best F-scores from a constant policy are 0.23, 0.23, 0.22, 0.41 for the four classes). For the full dataset, the small CNN-4 trained from scratch has the best performance. I also experimenting with holding out a fraction of the training data. Larger models with contrastive pre-training only outperforms for the smallest dataset (76 training examples) but more data is needed to find the exact crossover point.
+
 ### References
 <a id="1">[1]</a> K.S. Novoselov *et al.,* "Electric field effect in atomically thin carbon films", *Science* **306**, 666-669 (2004)
 
