@@ -43,6 +43,9 @@ Below I will compare two methods/architectures for training a graphene classifie
 
 CNN-4 was trained for 200 epochs using the AdamW optimizer with `lr=3r-4` and `weight_decay=0.2`. The ResNet-50 was first trained on the contrastive learning dataset for 50 epochs with `lr=3r-4`, `weight_decay=0.3`, and a batch size of 256. Fine-tuning on the classifier dataset was done by first training the linear output layer with the backbone frozen, and then training the entire model for 50 epochs with `lr=1r-5` and `weight_decay=0.01`. The results are summarized below:
 
+<p align = "center">
+<img src="figures/fig3.svg" width=800>
+</p>
 
 ### References
 <a id="1">[1]</a> K.S. Novoselov *et al.,* "Electric field effect in atomically thin carbon films", *Science* **306**, 666-669 (2004)
