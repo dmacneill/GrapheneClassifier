@@ -13,6 +13,7 @@ Depending on the material this search (colloquially termed "flake-hunting") can 
 Previous work showed convolutional neural nets (CNN) can be trained to identify thin crystals very well, but those models were trained on high-magnification images which limits throughput (since it takes a long time to image an entire wafer at high-magnification). Here, I discuss some experiments on flake-identification using an objective lens with low-magnification and large field-of-view (each image captures a 2.8 mm by 1.9 mm region). Another barrier preventing automated flake hunting is that different research projects have different materials requirements. Researchers might want to quickly characterize a material that has never been exfoliated before, or to find crystals with a specific shape. To this end I wanted to see if self-supervised pretraining with contrastive learning [[3]](#3) could increase data efficieny, and will compare the results with models trained from scratch.
 
 ### Requirements
+Python 3.8.10, Pillow 7.2.0, NumPy 1.19.1, Matplotlib 3.3.4, PyTorch 1.8.1
 
 ### Usage
 
