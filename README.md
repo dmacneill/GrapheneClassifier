@@ -26,9 +26,10 @@ Finally, the model defined in `model.py` is a small CNN with four convolutional 
 ### Results
 
 To train the model to identify graphene I created a dataset of 3756 training images and 683 validation images. The images are 400X400 pixel squares cropped from 4908X3264 microscope images covering a 2.8 mm by 1.9 mm field of view. The dataset contains: i) selected images of thin graphene/graphite films, ii) selected images of thick graphite crystals and other non-graphene objects on the wafer (residues, dirt, etc.), and iii) randomly cropped regions. For each image, I created labels indicating the non-exclusive presence or absence of three classes:
-*Class 1: Graphene films with R channel contrast <= 12% 
-*Class 2: Graphene films with R channel contrast >12% and <=19%
-*Class 3: Graphene films with R channel contrast >19% and <=30%
+
+* Class 1: Graphene films with R channel contrast <= 12% 
+* Class 2: Graphene films with R channel contrast >12% and <=19%
+* Class 3: Graphene films with R channel contrast >19% and <=30%
 
 ### References
 <a id="1">[1]</a> K.S. Novoselov *et al.,* "Electric field effect in atomically thin carbon films", *Science* **306**, 666-669 (2004)
