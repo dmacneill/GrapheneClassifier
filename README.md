@@ -2,7 +2,7 @@
 Since 2004 [[1]](#1) layered crystals (called two-dimensional or van der Waals materials) have been one of the most active areas of research in materials science. The most common method to prepare two-dimensional materials is mechanical exfolitation: a non-deterministic procedure where we press a thick crystal onto a silicon wafer, leaving behind crystal fragments which are occasionally only a few atoms thick. For example, to prepare graphene (a monolayer of carbon atoms) we press graphite crystals onto a silicon wafer. We use a microscope to search the debris for thin crystals, which are typically about 4-10% darker than the bare wafer. Some images of crystallites prepared by mechanical exfoliation are shown below:
 
 <p align = "center">
-<img src="figures/fig1.png" width=1000>
+<img src="figures/fig1.png" width=900>
 </p>
   
 *Left: high-magnification image of exfoliated monolayer graphene. Right: low-magnification image of the same graphene monolayer along with graphite crystals of various
