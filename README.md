@@ -5,7 +5,8 @@ Since 2004 [[1]](#1) layered crystals (called two-dimensional or van der Waals m
 <img src="figures/exfoliation_examples.png" width=1000>
 </p>
   
-*Left: high-magnification image of exfoliated monolayer graphene. Right: low-magnification image of graphite crystals with varying thicknesses (from monolayer to 100s of nanometers) prepared by mechanical exfoliation.*
+*Left: high-magnification image of exfoliated monolayer graphene. Right: low-magnification image of the same graphene monolayer along with graphite crystals of various
+thicknesses (up to 100s of nanometers).*
 
 Depending on the material this search (colloquially termed "flake-hunting") can be quite time-consuimg, sometimes taking several hours. Many research groups have tried to automate the process, but so far no solution has been convenient or reliable enough for widespread adoption. The group I work in at MIT has also put efforts into automated flake-hunting [[2]](#2), and this project is a continuation of that. 
 
