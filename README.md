@@ -30,7 +30,7 @@ To train the model I created a dataset of 3756 training images and 683 validatio
 * Class 2: Graphene films with R channel contrast >12% and <=19%
 * Class 3: Graphene films with R channel contrast >19% and <=30%
 
-Class 1 contains primarily monolayers, Class 2 bilayers and trilayers, and Class 3 from trilayers up to 5-6 layers. The association between classes and layer thickness is approximate and will depend on substrate type and illumination conditions. In addition the models are trained with a fourth class indicating the presence of any class. In the training dataset 13% of images are in Class 1, 14% are in Class 2, 12% are in Class 3, and 26% are in Class 4.
+Class 1 contains primarily monolayers, Class 2 bilayers and trilayers, and Class 3 from trilayers up to 5-6 layers. The association between classes and layer thickness is approximate and will depend on substrate type and illumination. In addition the models are trained with a fourth class indicating the presence of any class. In the training dataset 13% of images are in Class 1, 14% are in Class 2, 12% are in Class 3, and 26% are in Class 4.
 
 For SimCLR I created a dataset of 117027 200 x 200 images. The images were cropped from 4098 x 3264 images by identifying regions with a sufficiently different color from the median color and cropping a 200 x 200 square around them: regions with contrast corresponding to Class 1-3 and outside this range were chosen in equal numbers.
 
