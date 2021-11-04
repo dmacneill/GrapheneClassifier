@@ -44,17 +44,18 @@ class Classifier(nn.Module):
         use_head: if False the output layer is replaced with identity
     """
     def __init__(self, output_features = 1, clamp_min = 0,
-                 clamp_max = 255, use_head = True): 
+                 clamp_max = 255, clr_head = False): 
         super().__init__()
         self.input_transform = InputTransform(clamp_min, clamp_max)
         self.frozen_backbone = False
         self.backbone = torchvision.models.resnet50(pretrained=True)
         self.backbone.fc = nn.Linear(2048, 512)
-        self.use_head = use_head
-        if self.use_head:
-            self.head = nn.Sequential(nn.ReLU(), nn.Dropout(p=0.5), nn.Linear(512, output_features))
+        if clr_head:
+            self.head = nn.Sequential(nn.ReLU(), nn.Linear(512, 512),
+                nn.ReLU(), nn.Linear(512, output_features))
         else:
-            self.head = Identity()
+            self.head = nn.Sequential(nn.ReLU(),
+            nn.Dropout(p=0.5), nn.Linear(512, output_features))
 
     def forward(self, x):
         x = self.input_transform(x)
