@@ -16,7 +16,7 @@ Python 3.8.10, Pillow 7.2.0, NumPy 1.19.1, Matplotlib 3.3.4, PyTorch 1.8.1
 
 ### Usage
 
-The main module is `train.py` which uses gradient descent to train the model defined by the class `Classifier` in `model.py`. It is designed to be run from the command line. To see the arguments, call `python train.py -h`. Arguments can be passed from file using `@` as a prefix. The module `clr.py` can be run from the command line to carry out contrastive learning, again using the `Classifier` class defined in `model.py`. 
+The main module is `train.py` which uses gradient descent to train the model defined by the class `Classifier` in `model.py`. It is designed to be run from the command line. To see the arguments, call `python train.py -h`. Arguments can be passed from file using `@` as a prefix. The module `clr.py` can be run from the command line to carry out SimCLR, again using the `Classifier` class defined in `model.py`. 
 
 As described in [Big Self-Supervised Models are Strong Semi-Supervised Learners](#4), in SimCLR we train the model with a projection head that outputs a high-dimensional embedding. For supervised fine-tuning we replace this projection head with a linear map that outputs a `num_classes` dimensional vector. This is handled automatically by the `Classifier` class, which can be initialized in either configuration. During training `clr.py` saves weights for the entire model and also weights for the backbone only. To use `train.py` with a pre-trained backbone use the command line argument `--backbone_weights_path`. 
 
