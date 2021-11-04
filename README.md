@@ -33,7 +33,7 @@ To train the model to identify graphene I created a dataset of 3756 training ima
 
 Class 1 contains primarily monolayers, Class 2 bilayers and trilayers, and Class 3 from trilayers up to 5-6 layers. The association between classes and layer thickness is only approximate and will strongly depend on substrate type and illumination conditions. In addition the models are trained with a fourth class indicating the presence of any class. In the training dataset 13% of images are in Class 1, 14% are in Class 2, 12% are in Class 3, and 26% are in Class 4.
 
-For contrastive learning I created a dataset of 117027 200 x 200 images. The images were cropped from 4098 x 3264 images by identifying regions with color deviation from median above a threshold and cropping a 200 x 200 square around that region: regions with contrast corresponding to Class 1-3 and outside this range were chosen in equal numbers.
+For contrastive learning I created a dataset of 117027 200 x 200 images. The images were cropped from 4098 x 3264 images by identifying regions with a sufficiently different color from the image median color and cropping a 200 x 200 square around them: regions with contrast corresponding to Class 1-3 and outside this range were chosen in equal numbers.
 
 Below I will compare two methods/architectures for training a graphene classifier: a small CNN trained from scratch on the classifier dataset only (CNN-4) and a larger ResNet-50 model trained using self-supervised learning on the contrastive learning dataset and then fine-tuned on the classifier dataset.
 
