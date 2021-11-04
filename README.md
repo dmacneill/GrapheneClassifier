@@ -53,6 +53,10 @@ CNN-4 and ResNet-50(2X) FT are essentially tied for the best overall performance
 
 Currently in our lab we are using small CNNs of the type described here as part of a automated flake-hunting setup. In this setup we use a hand-coded pre-selection algorithm, along with a CNN trained to reject false positives. We have not tested the use of CNNs without this pre-selection step in detail, but could move towards this in the future with more data. For fun, I wrote some code, included here as `scan.py`, to tile an image and draw red boxes aroud any tile where any of Class 1-3 is detected. It seems to do a reasonable job, as illustrated in the image below:
 
+<p align = "center">
+<img src="figures/pic18.jpg" width=1000>
+</p>
+
 ### References
 <a id="1">[1]</a> K.S. Novoselov *et al.,* "Electric field effect in atomically thin carbon films", *Science* **306**, 666-669 (2004)
 
