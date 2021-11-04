@@ -13,7 +13,7 @@
    version="1.1"
    id="svg23"
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
-   sodipodi:docname="architectures.svg">
+   sodipodi:docname="fig2.svg">
   <defs
      id="defs17">
     <rect
@@ -37,8 +37,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.2"
-     inkscape:cx="1303.3793"
-     inkscape:cy="506.36322"
+     inkscape:cx="1293.3793"
+     inkscape:cy="656.36322"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -377,33 +377,24 @@
          y="13.834579"
          style="stroke-width:0.264583">ResNet-50 (24M params)</tspan></text>
     <rect
-       style="fill:#ff8080;stroke:#aa0000;stroke-width:1.95121;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ff8080;stroke:#aa0000;stroke-width:1.58945;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect386"
-       width="127.44177"
-       height="58.04879"
-       x="242.17526"
-       y="40.532452"
-       ry="18.194397" />
+       width="127.80353"
+       height="38.410545"
+       x="241.99438"
+       y="40.351574"
+       ry="12.039126" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="305.75824"
-       y="64.747322"
+       y="64.218155"
        id="text392"><tspan
          sodipodi:role="line"
          x="305.75824"
-         y="64.747322"
+         y="64.218155"
          style="text-align:center;text-anchor:middle;stroke-width:0.264583"
-         id="tspan390">ResNet-50</tspan><tspan
-         sodipodi:role="line"
-         x="305.75824"
-         y="77.976448"
-         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
-         id="tspan400"><tspan
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
-   id="tspan404">d</tspan><tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan408">out </tspan> = 512</tspan></text>
+         id="tspan400">ResNet-50</tspan></text>
     <rect
        style="fill:#afdde9;stroke:#216778;stroke-width:0.963203;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect410"
@@ -510,12 +501,12 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="423.03183"
-       y="248.70695"
+       y="248.1778"
        id="text1307"><tspan
          sodipodi:role="line"
          id="tspan1305"
          x="423.03183"
-         y="248.70695"
+         y="248.1778"
          style="stroke-width:0.264583">ReLU</tspan></text>
     <text
        xml:space="preserve"
@@ -528,5 +519,24 @@
          x="310.58392"
          y="129.64528"
          style="stroke-width:0.264583">ReLU</tspan></text>
+    <rect
+       style="fill:#afdde9;stroke:#216778;stroke-width:0.963203;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect3858"
+       width="128.42978"
+       height="14.036797"
+       x="242.25133"
+       y="84.804825"
+       ry="4.3995929" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="260.6922"
+       y="95.226341"
+       id="text3862"><tspan
+         sodipodi:role="line"
+         x="260.6922"
+         y="95.226341"
+         style="stroke-width:0.264583"
+         id="tspan3860">Linear 2048, 512</tspan></text>
   </g>
 </svg>
