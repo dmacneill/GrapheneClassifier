@@ -36,7 +36,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.2"
+     inkscape:zoom="0.45"
      inkscape:cx="1293.3793"
      inkscape:cy="656.36322"
      inkscape:document-units="mm"
@@ -538,5 +538,16 @@
          y="95.226341"
          style="stroke-width:0.264583"
          id="tspan3860">Linear 2048, 512</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="423.03183"
+       y="216.95738"
+       id="text99"><tspan
+         sodipodi:role="line"
+         id="tspan97"
+         x="423.03183"
+         y="216.95738"
+         style="stroke-width:0.264583">ReLU</tspan></text>
   </g>
 </svg>
