@@ -5,7 +5,7 @@ Since 2004 [[1]](#1) two-dimensional materials have been one of the most active 
 <img src="figures/fig1.png" width=900>
 </p>
   
-*Left: low-magnification image of a silicon wafer after mechanical exfoliation of graphite. Graphite crystals of various thicknesses are shown (up to 100s of nanometers), along with a monolayer graphene crystal (circled in red). Right: high-magnification image of exfoliated monolayer graphene.*
+*Left: low-magnification image of a silicon wafer after mechanical exfoliation of graphite. Graphite crystals of various thicknesses are shown, along with a monolayer graphene crystal (circled in red). Right: high-magnification image of exfoliated monolayer graphene.*
 
 Depending on the material this search (colloquially termed "flake-hunting") can take several hours. Many research groups have tried to automate the process, but so far no solution has been convenient or reliable enough for widespread adoption. The group I work in at MIT has also put efforts into automated flake-hunting [[2]](#2), and this project is a continuation of that. 
 
