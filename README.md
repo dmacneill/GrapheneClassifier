@@ -49,7 +49,7 @@ CNN-4 was trained for 200 epochs using the AdamW optimizer with `lr=3r-4` and `w
 
 *Left: Table of F-scores for the four classes, for different model types. LE refers to contrastive pre-training plus training of the linear output layer with the backbone frozen, while FT refers to contrastive pre-training with fine-tuning as descrived above. Right: Harmonic average of F-scores over class versus dataset size for selected model types*
 
-All models are able to obtain F-scores well above random (note that a random policy will obtain an F-score below 50% due to class imbalance). CNN-4 and ResNet-50(2X) FT are essentially tied for the best overall performance. I also experimented with holding out a fraction of the training data. Larger models with contrastive pre-training outperform for the smallest dataset (76 training examples) but more data is needed to find the exact crossover point. 
+All models are able to obtain F-scores well above random (note that a random policy will obtain an F-score below 50% due to class imbalance). CNN-4 and ResNet-50(2X) FT are essentially tied for the best overall performance. I also experimented with holding out a fraction of the training data. Larger models with contrastive pre-training outperform for the smallest dataset (76 training examples) but more data is needed to find the exact crossover point.
 
 There are several possible improvements to the contrastive pre-training regimen.
 ### References
