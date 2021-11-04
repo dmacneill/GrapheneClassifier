@@ -1,5 +1,5 @@
 # GrapheneClassifier
-Since 2004 [[1]](#1) two-dimensional materials have been one of the most active areas of research in materials science. Two-dimensional materials are commonly prepared by mechanical exfolitation: a non-deterministic procedure where we press a crystal onto a silicon wafer, leaving behind crystal fragments which are occasionally only a few atoms thick. For example, to prepare graphene (a monolayer of carbon atoms) we press graphite crystals onto a silicon wafer. We then use a micrscope to search the debris for graphene flakes that have adhered to the surface. The results of mechanical exfoliation are shown below:
+Since 2004 two-dimensional materials have been one of the most active areas of research in materials science [[1]](#1). Two-dimensional materials are commonly prepared by mechanical exfolitation: a non-deterministic procedure where we press a crystal onto a silicon wafer, leaving behind crystal fragments which are occasionally only a few atoms thick. For example, to prepare graphene (a monolayer of carbon atoms) we press graphite crystals onto a silicon wafer. We then use a micrscope to search the debris for graphene flakes that have adhered to the surface. The results of mechanical exfoliation are shown below:
 
 <p align = "center">
 <img src="figures/fig1.png" width=900>
