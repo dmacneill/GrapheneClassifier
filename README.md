@@ -2,7 +2,7 @@
 Since 2004 two-dimensional materials have been one of the most active areas of research in materials science [[1]](#1). Two-dimensional materials are commonly prepared by mechanical exfolitation: a non-deterministic procedure where we press a crystal onto a silicon wafer, leaving behind crystal fragments which are occasionally only a few atoms thick. For example, to prepare graphene (a monolayer of carbon atoms) we press graphite crystals onto a silicon wafer. We then use a micrscope to search the debris for graphene flakes that have adhered to the surface. The results of mechanical exfoliation are shown below:
 
 <p align = "center">
-<img src="figures/fig1.png" width=900>
+<img src="figures/fig1.jpg" width=900>
 </p>
   
 *Left: low-magnification image of a silicon wafer after mechanical exfoliation of graphite. Graphite crystals of various thicknesses are shown, along with a monolayer graphene crystal (circled in red). Right: high-magnification image of exfoliated monolayer graphene.*
