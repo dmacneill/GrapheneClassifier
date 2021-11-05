@@ -20,7 +20,7 @@ The main module is `train.py` which uses gradient descent to train the model def
 
 As described in [Big Self-Supervised Models are Strong Semi-Supervised Learners](#4), in SimCLR we train the model with a projection head that outputs a high-dimensional embedding. For supervised fine-tuning we replace this projection head with a linear map that outputs a `num_classes` dimensional vector. This is handled automatically by the `Classifier` class, which can be initialized in either configuration. During training `clr.py` saves weights for the entire model and also weights for the backbone only. To use `train.py` with a pre-trained backbone use the command line argument `--backbone_weights_path`. 
 
-Two model architectures are included in this repository. The model defined in `model.py` is a small CNN with four convolutional layers and `resnet.py` defines a classifier based on ResNet-50; to use it rename this file to `model.py`.
+Two model architectures are included in this repository. The model defined in `model.py` is a small CNN with four convolutional layers and `resnet.py` defines a classifier based on ResNet-50. To use the resnet rename `resnet.py` to `model.py`.
 
 ### Results
 
