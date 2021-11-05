@@ -24,7 +24,7 @@ Two model architectures are included in this repository. The model defined in `m
 
 ### Results
 
-To train the model I created a dataset of 3756 training images and 683 validation images. The images are 400 x 400 pixel squares cropped from 4908 x 3264 microscope images. The dataset contains: i) selected images of thin graphene/graphite films, ii) selected images of thick graphite crystals and other non-graphene objects on the wafer (residues, dirt, etc.), and iii) randomly cropped regions. For each image, I created labels indicating the non-exclusive presence or absence of three classes:
+To train the model I created a dataset of 3756 training images and 683 validation images. The images are 400 x 400 pixel squares cropped from 4908 x 3264 microscope images. The dataset contains: i) selected images of thin graphene/graphite films, ii) selected images of thick graphite and other non-graphene objects on the wafer (residues, dirt, etc.), and iii) randomly cropped regions. For each image, I created labels indicating the non-exclusive presence or absence of three classes:
 
 * Class 1: Graphene films with R channel contrast <= 12% 
 * Class 2: Graphene films with R channel contrast >12% and <=19%
