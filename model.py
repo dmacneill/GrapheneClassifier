@@ -61,13 +61,17 @@ class Classifier(nn.Module):
         head: linear classifier acting on the backbone output
     """
     def __init__(self, output_features, clamp_min = 0,
-                 clamp_max = 255): 
+                 clamp_max = 255, clr_head = False): 
         super().__init__()
         self.input_transform = InputTransform(clamp_min, clamp_max)
         self.frozen_backbone = False
         self.backbone = Backbone()
-        self.head = nn.Sequential(
-        nn.Dropout(p=0.5), nn.Linear(256, output_features))
+        if clr_head:
+            self.head = nn.Sequential(nn.Linear(256, 256), nn.ReLU(), 
+                nn.Linear(256, output_features))
+        else:
+            self.head = nn.Sequential(
+            nn.Dropout(p=0.5), nn.Linear(256, output_features))
         
     def forward(self, x):
         x = self.input_transform(x)
